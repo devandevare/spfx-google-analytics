@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Analytics"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="1b49f483-e667-4051-af53-e94df1608fd7"
+        ClientSideComponentProperties="{&quot;trackingID&quot;:&quot;UA-227888252-1&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sonorasoftware0.sharepoint.com/sites/DevanTest",
+      "customActions": {
+        "1b49f483-e667-4051-af53-e94df1608fd7": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "analytics": {
+      "pageUrl": "https://sonorasoftware0.sharepoint.com/sites/DevanTest",
+      "customActions": {
+        "1b49f483-e667-4051-af53-e94df1608fd7": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
